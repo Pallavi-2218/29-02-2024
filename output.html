@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output statements</title>
+</head>
+<body>
+    <h1>Output Statements In JavaScrit</h1>
+    <p>There are 4 types of output statements in JavaScrit.<br>They are</p>
+    <ol>
+        <li>document.write()</li>
+        <li>innerHTML</li>
+        <li>console.log</li>
+        <li>alert</li>
+    </ol>
+    <h3>document.write()</h3>
+    <p>We can print HTML elements directly on the document(active webpage) </p>
+    <script>
+    document.write("<p><i>Output statement in document.write()</i>")
+    </script>
+    <h3>innerHTML</h3>
+    <p>Used to pass the HTMl data to already existing HTML element</p>
+    <p id="inner"><i>Used to pass the HTMl data to already existing HTML element</i></p>
+    <script>
+        document.getElementById("inner").innerHTML="Output statement in innerHTML"
+    </script>
+    <h3>console.log</h3>
+    <p>Used to print content in console of the browser</p>
+    <script>console.log("Output statement in console.log")</script>
+    <h3>alert</h3>
+    <p>Used to print content in dialogue box</p>
+    <script>alert("alert Output statement")</script>
+</body>
+</html>

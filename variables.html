@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    <h1>Variables in JavaScript</h1>
+    <p>
+        Variable is named storage location to store,process,manipulate,retrive the values during the execution of of program
+    </p>
+    <p>To create variable names in JS we use identifiers</p>
+    <h3>Types of variables</h3>
+    <ol>
+        <li>Local variable</li>
+        <li>Global variabe</li>
+    </ol>
+    <h4>Local variable:-</h4>
+    <p>A variable which declared inside a block of code. Local variable is declared by using "Let" keyword</p>
+    <script>
+        if(true)
+        {
+            let firstName = "pallivi";
+            document.write(`(firstName) is the local variable`);
+        }
+    </script>
+    <h4>Global variable:-</h4>
+    <p>A variable which declared outside of block of code.Global variable is declared by using "var" keyword.</p>
+    <script>
+        var lastName="Barla"
+        if(true)
+        {
+            document.write(`(lastName) is the global variable`)
+        }
+    </script>
+
+    <h4>Example:</h4>
+    <script>
+        var firstName = "Java";
+        if(true)
+        {
+            let lastName = "Script";
+            document.write("Example for variables ");
+            document.write(firstName + lastName);
+        }
+    </script>
+    
+</body>
+</html>
